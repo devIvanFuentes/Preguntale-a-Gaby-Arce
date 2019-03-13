@@ -58,6 +58,7 @@ input{
 
 .pregunta__title{
 	font-family: 'Barlow', sans-serif;
+	font-size: 18px;
 
 }
 
@@ -112,4 +113,55 @@ input{
 	font-weight: 500;
 	text-decoration: none;
 	font-size: 14px;
+}
+
+
+/*ESTILOS PARA PAGINA DE PREGUNTA*/
+.question__author, .question__location{
+	margin-bottom: 7px;
+	color: #585858;
+}
+
+.pregunta__main{
+	margin-top: 1em;
+}
+
+.pregunta__main h1:nth-child(1){
+	color:#A285B3;
+}
+
+
+/*
+************ MOBILE *********
+*/
+
+@media screen and (max-width: 640px){
+	h1{
+		font-size: 18px;
+	}
+
+	h2{
+		font-size: 14px;
+	}
+
+	h3{
+		font-size: 13px
+	}
+
+	h4{
+		font-size:12px;
+	}
+
+	h5{
+		font-size: 11px;
+	}
+	
+	h6{
+		font-size: 10px;
+	}
+
+	p{
+		font-size: 12px;
+	}
+
 }
